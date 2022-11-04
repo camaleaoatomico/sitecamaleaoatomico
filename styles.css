@@ -1,4 +1,9 @@
-
+}
+body {
+  background-image: url("aesthetic4.jpg");
+  background-repeat: no-repeat, repeat;
+      
+}
 #sse1
 {
     background-color: #5f0a87;
