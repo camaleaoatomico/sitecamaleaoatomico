@@ -32,11 +32,6 @@ body {
     display: flex;
 }
 
-.titulo {
-    color: #ffffff;
-    padding-top: 25px;
-}
-
 h1 {
   font-size: 40px;
   color: #ffffff;
