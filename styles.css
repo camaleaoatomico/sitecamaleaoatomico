@@ -28,6 +28,11 @@ body {
     color: #fff;
     text-align: justify;
 }
+
+.titulo {
+    color: #ffffff;
+    padding-top: 25px;
+}
 .logo {
     display: flex;
 }
