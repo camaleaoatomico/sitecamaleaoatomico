@@ -6,8 +6,8 @@
 }
 
 body {
-    background-image: url ("img111.jpg);
-    display: justify;
+    background-image: url ("img111.jpg");
+    display: table;
     justify-content: center;
     align-items: center;
 }
