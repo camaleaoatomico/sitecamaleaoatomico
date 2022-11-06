@@ -37,6 +37,23 @@ body {
     padding-top: 25px;
 }
 
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+
+}
+
+h2 {
+  font-size: 30px;
+  color: #ffffff;
+
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
 .menu {
     left: 200px;
 }
