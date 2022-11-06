@@ -25,12 +25,12 @@ body {
 }
 
 .titulo {
-    color: #fff;
+    color: black;
     text-align: center;
 }
 
 .titulo {
-    color: #000000;
+    color: black;
     padding-top: 25px;
 }
 .logo {
@@ -39,19 +39,18 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #000000;
+  color: black;
 
 }
 
 h2 {
   font-size: 30px;
-  color: #000000;
-
+  color: black;
 }
 
 p {
   font-size: 14px;
-  color: #ffffff;
+  color: black
 }
 
 .menu {
