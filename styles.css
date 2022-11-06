@@ -30,7 +30,7 @@ body {
 }
 
 .titulo {
-    color: #ffffff;
+    color: #000000;
     padding-top: 25px;
 }
 .logo {
@@ -39,13 +39,13 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #ffffff;
+  color: #000000;
 
 }
 
 h2 {
   font-size: 30px;
-  color: #ffffff;
+  color: #000000;
 
 }
 
