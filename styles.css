@@ -4,12 +4,14 @@
     box-sizing: border-box;
     font-family: "Playdair Display";
 }
-
+	
 body {
+    width: 100vw;
+    height: 100vh;
     background-image: url ("img111.jpg");
-    display: table;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid;
+    background-color: #5f0a87;
+    display: collumn;
 }
 .titulo{
     position: center;
