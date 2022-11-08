@@ -1,38 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-br">
 <html>
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Página Inicial</title>
-<link rel="stylesheet" type="text/css" href="reset2.css">
-<div class="container">
- <h1>
-   <a href="#menu"">Camaleão Atômico</a>
- </h1>
-<div class="popover" id="menu">
- <div class = 'content'>
-  <a href="#" class="close"></a>
-   <div class = 'nav'>
-    <ul class = 'nav_list'>
-      <div class = 'nav_list_item'>
-		<li><a href="saiba mais.html">Saiba mais</a></li>
-     </div>
-    <div class = 'nav_list_item'>
-	  <li><a href="#">Resumos</a></li>
-      </div>
-    <div class = 'nav_list_item'>
-	  <li><a href="vídeos1.html">Vídeo-aulas</a></li>
-      </div>
-      <div class = 'nav_list_item'>
-		<li><a href="#">Exercícios</a></li>
-      </div>
-     <div class = 'nav_list_item'>
-		<li><a href="https://t.me/camaleaoatomico">Comunidade</a></li>
-      </div>
-	</ul>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-color:#ffffff
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #5f0a87;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #008b8b;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #008080;
+}
+
+.aside {
+  background-color: #008080;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<p style="background-image: url('img111.jpg.jpg');">
+<img src="logo.png" width= 120px>
+  <h1>Camaleão Atômico</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href ="resumos.html">Resumos</a> </li>
+      <li> <a href = "vídeos1.html">Vídeo-aulas</a> </li>
+      <li> <a href = "Exercícios.html">Exercícios</a> </li>
+      <li> <a href = "https://t.me/camaleaoatomico">Telegram</a> </li>
+    </ul>
   </div>
- </div>
- </div>
- </div>
- </html>
+
+  <div class="col-6 col-s-9">
+    <h1>Bem vindos!</h1>
+    <p> O Camaleão Atômico é um site completamente gratuito que compila os conteúdos de física ensinados durante o Ensino Médio. A curadoria dos conteúdos aqui presentes foi realizada com base nas respostas coletadas no questionário "Dificuldades enfrentadas por alunos do EM público no aprendizado de Física" e em conversas com profesores de física da rede pública estadual de Campinas.</div>
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Mecânica:</h2>
+		<p>Cinemática;</p>
+		<p>Dinâmica;</p>
+		<p>Gravitação Universal.</p>
+      <h2>Termologia:</h2>
+      	<p>Termometria;</p>
+		<p>Termodinâmica;</p>
+		<p>Estudo dos Gases.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
