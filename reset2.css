@@ -17,13 +17,13 @@ html {
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
-    background: #131313;
+    background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center center fixed;
     font-family:'Helvetica Neue', sans-serif;
 }
 
 h1 a {
   font-size: 80px;
-  color: #5f0a87;
+  color: #FFFFF;
   text-decoration: none;
   text-transform: uppercase;
 }
