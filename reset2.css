@@ -3,12 +3,8 @@
     padding: 0;
 }
 
-html { 
+html, body { 
   background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .container {
@@ -18,13 +14,12 @@ html {
     text-color: #ffffff;
     align-items: center;
     scroll-behavior: smooth;
-    background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center center fixed;
     font-family:'Helvetica Neue', sans-serif;
 }
 
 h1 a {
   font-size: 80px;
-  color: #FFFFF;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
 }
