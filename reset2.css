@@ -15,6 +15,7 @@ html {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    text-color: #ffffff;
     align-items: center;
     scroll-behavior: smooth;
     background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center center fixed;
