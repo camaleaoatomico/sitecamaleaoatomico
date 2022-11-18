@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+html { 
+  background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .container {
     min-height: 100vh;
     display: flex;
