@@ -3,15 +3,12 @@
     padding: 0;
 }
 
-.body { 
-  background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center fixed;
-}
-
 .container {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    text-color: #ffffff;
+    background-image: url ("Picsart_22-11-18_12-54-24-163.jpg") no-repeat center fixed;
+    text-color: #5f0a87;
     align-items: center;
     scroll-behavior: smooth;
     font-family:'Helvetica Neue', sans-serif;
